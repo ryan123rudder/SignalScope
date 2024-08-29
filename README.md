@@ -1,7 +1,7 @@
 # SignalScope
-# UNDER CONSTRUCTION
+# **UNDER CONSTRUCTION**
 ## Overview
-SatTrack-Antenna is a project focused on building a motorized tracking antenna system designed to receive and decode images from weather satellites. The system combines mechanical steering with advanced control algorithms to maintain a strong signal lock on satellites as they move across the sky, enabling the reception of high-quality weather data.
+Hello Traveler! Signal Scope is a project focused on building a motorized tracking antenna system designed to receive and decode images from weather satellites. The system combines mechanical steering with advanced control algorithms to maintain a strong signal lock on satellites as they move across the sky, enabling the reception of high-quality weather data.
 
 ## Features
 Motorized Antenna Tracking: The system uses a motorized mount to physically steer the antenna, ensuring it follows the satellite's path for continuous signal reception.
