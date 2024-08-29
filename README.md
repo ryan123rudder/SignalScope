@@ -20,32 +20,34 @@ The electronics system includes the microcontroller or FPGA, a Low-Noise Amplifi
 ### Control Algorithm
 The control algorithm is the brain of the system, using Guidance, Navigation, and Control (GNC) principles to steer the antenna. It calculates the satellite's position based on orbital data and adjusts the gimbal's motors to keep the antenna aligned with the satellite throughout its pass. The algorithm ensures smooth tracking, minimizes signal loss, and compensates for factors like wind or mechanical imperfections.
 
-##Getting Started
-###Prerequisites
+## Getting Started
+### Prerequisites
 
 A motorized antenna mount
-    Software-Defined Radio (SDR) (e.g., RTL-SDR)
-    Compatible antenna (Yagi-Uda or helical)
-    Microcontroller/FPGA for control algorithms
-    Satellite tracking software (e.g., WXtoIMG for decoding weather satellite images)
 
-###Installation
+Software-Defined Radio (SDR) (e.g., RTL-SDR)
+
+Compatible antenna (Yagi-Uda or helical)
+
+Microcontroller/FPGA for control algorithms
+
+Satellite tracking software (e.g., WXtoIMG for decoding weather satellite images)
+
+### Installation
 
 Clone the repository:
 
- bash
-
+```
 git clone https://github.com/yourusername/SatTrack-Antenna.git
+```
 
 Set up the hardware components and connect them to your microcontroller/FPGA.
-    Install necessary software for SDR and satellite image decoding.
+Install necessary software for SDR and satellite image decoding.
 
-###Usage
+### Usage
 
 Run the control algorithm to start tracking the satellite.
-    Use the SDR to receive signals as the antenna tracks the satellite.
-    Decode the received signals to obtain weather images.
 
-Acknowledgments
+Use the SDR to receive signals as the antenna tracks the satellite.
 
-Special thanks to the open-source community for providing tools and resources that made this project possible.
+Decode the received signals to obtain weather images.
