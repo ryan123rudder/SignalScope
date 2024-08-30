@@ -44,9 +44,9 @@ WXtoIMG for decoding weather satellite images
 
 Clone the repository:
 
+```
 git clone https://github.com/yourusername/SatTrack-Antenna.git
-
-
+```
 
 Set up the hardware components and connect them to your microcontroller.
 
