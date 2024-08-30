@@ -42,13 +42,14 @@ WXtoIMG for decoding weather satellite images
 
 ### Installation
 
-Clone the repository:
+Clone the repository onto the Raspberry Pi:
 
 ```
-git clone https://github.com/yourusername/SatTrack-Antenna.git
+git clone https://github.com/ryan123rudder/SignalScope.git
 ```
+Flash .ino file onto Arduino
 
-Set up the hardware components and connect them to your microcontroller.
+Ensure all electronics are connected as specified in the build process.
 
 Install necessary software for SDR and satellite image decoding.
 
